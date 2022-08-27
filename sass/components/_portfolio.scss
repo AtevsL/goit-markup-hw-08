@@ -1,0 +1,9 @@
+.portfolio {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.portfolio__item:not(:last-child) {
+  margin-right: 8px;
+}

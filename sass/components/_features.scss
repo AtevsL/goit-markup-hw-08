@@ -1,0 +1,33 @@
+.features {
+  display: flex;
+
+  .features__item {
+    width: 270px;
+    margin-right: 30px;
+  }
+
+  .features__item:last-child {
+    margin-right: 0;
+  }
+}
+
+.features__tumb {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  background-color: var(--color-lgrey);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.features__text {
+  color: var(--color-second);
+}

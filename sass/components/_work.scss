@@ -1,0 +1,19 @@
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+.work__item {
+  position: relative;
+}
+.work__text {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--color-white);
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
