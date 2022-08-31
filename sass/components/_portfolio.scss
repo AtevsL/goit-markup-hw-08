@@ -1,9 +1,13 @@
 .portfolio {
   display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
+  margin-bottom: 40px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
-.portfolio__item:not(:last-child) {
+.portfolio__item {
   margin-right: 8px;
+  &:nth-child(-n + 3) {
+    margin-bottom: 15px;
+  }
 }

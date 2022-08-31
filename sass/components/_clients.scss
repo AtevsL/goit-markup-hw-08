@@ -1,11 +1,18 @@
 .clients {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .clients__item {
-  width: 170px;
   height: 92px;
+  width: calc((100% - 30px) / 2);
+  @media screen and (min-width: 480px) {
+    width: calc((480px - 60px) / 2);
+  }
+  @media screen and (min-width: 768px) {
+    width: calc((768px - 90px) / 3);
+  }
 }
 .clients__list {
   display: flex;

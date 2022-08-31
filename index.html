@@ -24,6 +24,20 @@
           <a class="logo" href="./index.html" rel="noreferrer noopener nofollow"
             ><span class="prelogo">Web</span>Studio</a
           >
+          <button
+            type=""
+            class="main-nav__menu is-open js-menu-container js-open-menu js-close-menu"
+          >
+            <svg
+              class="main-nav__icon"
+              width="40px"
+              height="40px"
+              aria-label="перемикач мобільного меню"
+            >
+              <use class="main-nav__icon-menu" href="./images/icons.svg#icon-menu_40px"></use>
+              <use class="main-nav__icon-close" href="./images/icons.svg#icon-close_40px"></use>
+            </svg>
+          </button>
           <ul class="main-nav__list">
             <li class="main-nav__item">
               <a
@@ -199,7 +213,7 @@
         </div>
       </section>
       <!-- Чим ми займаємося -->
-      <section class="section sec-nopading">
+      <section class="section sec-nopading section--work">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work">
@@ -501,28 +515,28 @@
         <div class="footer__wrap">
           <p class="footer__join">Приєднуйтесь</p>
           <ul class="footer__soc">
-            <li>
+            <li class="footer__soc-item">
               <a href="" class="footer__list">
                 <svg class="icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer__soc-item">
               <a href="" class="footer__list">
                 <svg class="icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer__soc-item">
               <a href="" class="footer__list">
                 <svg class="icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer__soc-item">
               <a href="" class="footer__list">
                 <svg class="icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
@@ -535,7 +549,7 @@
         <div>
           <p class="footer__text">Підпишіться на розсилку</p>
           <form class="footer__form">
-            <input type="email" name="sign-up" class="footer__sign-up" placeholder="E-mail" />
+            <input type="email" name="sign-up" class="footer__input" placeholder="E-mail" />
             <button type="submit" class="button--footer">
               Підписатися<svg width="24px" height="24px">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -547,5 +561,6 @@
     </footer>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
