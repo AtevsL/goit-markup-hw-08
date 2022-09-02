@@ -3,11 +3,23 @@
   margin-bottom: 40px;
   justify-content: flex-start;
   flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1600px) {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio__item {
   margin-right: 8px;
   &:nth-child(-n + 3) {
     margin-bottom: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    &:nth-child(-n + 3) {
+      margin-bottom: 0;
+    }
   }
 }

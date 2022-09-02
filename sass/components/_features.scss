@@ -6,8 +6,11 @@
     width: 100%;
     margin-bottom: 30px;
     @media screen and (min-width: 768px) {
+      margin-bottom: 0;
       width: 354px;
-      height: 224px;
+    }
+    @media screen and (min-width: 1600px) {
+      width: 270px;
     }
   }
 
@@ -18,6 +21,9 @@
   @media screen and (min-width: 768px) {
     gap: 30px;
     margin-bottom: 0;
+  }
+  @media screen and (min-width: 1600px) {
+    justify-content: space-between;
   }
 }
 .features__tumb {
@@ -37,10 +43,10 @@
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: start;
+  }
 }
 .features__text {
   color: var(--color-second);
-}
-
-@media screen and (min-width: 768px) {
 }

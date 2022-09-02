@@ -11,3 +11,8 @@
   line-height: 1.18;
   text-align: center;
 }
+.section--portfolio {
+  @media screen and (min-width: 1600px) {
+    padding: 94px 0;
+  }
+}
