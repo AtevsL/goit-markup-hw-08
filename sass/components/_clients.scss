@@ -2,19 +2,23 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  @media screen and (min-width: 1600px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .clients__item {
   height: 92px;
-  width: calc((100% - 30px) / 2);
+  min-width: calc((100% - 30px) / 2);
   @media screen and (min-width: 480px) {
-    width: calc((480px - 60px) / 2);
+    min-width: calc((480px - 60px) / 2);
   }
+
   @media screen and (min-width: 768px) {
-    width: calc((768px - 90px) / 3);
+    min-width: calc((768px - 90px) / 3);
   }
   @media screen and (min-width: 1600px) {
-    width: 170px;
+    min-width: calc((1170px - 150px) / 6);
   }
 }
 .clients__list {

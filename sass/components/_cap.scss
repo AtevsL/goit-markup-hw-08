@@ -13,7 +13,7 @@
   background-color: #c4c4c4;
   background-position: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 480px) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/head-tab.jpg);
     background-size: 768px 400px;
@@ -23,7 +23,7 @@
     }
   }
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 768px) {
     height: 600px;
     padding: 200px 0;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
