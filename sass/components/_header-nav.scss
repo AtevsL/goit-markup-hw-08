@@ -185,9 +185,11 @@
   display: none;
   @media screen and (min-width: 768px) {
     display: flex;
+    gap: 10px;
     align-items: flex-start;
     flex-direction: column;
     .main-nav__contact {
+      display: block;
       text-decoration: none;
       font-weight: 500;
       line-height: 1.14;
@@ -202,9 +204,8 @@
   }
   @media screen and (min-width: 1600px) {
     flex-direction: row;
-    .main-nav__contact-item {
-      margin-right: 30px;
-    }
+    gap: 30px;
+    align-items: baseline;
   }
 }
 

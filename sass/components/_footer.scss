@@ -16,11 +16,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 60px;
     justify-content: space-around;
   }
 
   @media screen and (min-width: 1600px) {
     justify-content: space-between;
+    margin-bottom: 0;
   }
 }
 .footer__logo {
@@ -36,8 +38,10 @@
 .footer__items {
   margin-bottom: 60px;
   text-align: center;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 0;
+  }
+  @media screen and (min-width: 1600px) {
     margin-right: 70px;
   }
 }
@@ -102,8 +106,6 @@
   text-align: center;
   @media screen and (min-width: 768px) {
     width: 206px;
-  }
-  @media screen and (min-width: 1600px) {
     margin-bottom: 0;
   }
 }
