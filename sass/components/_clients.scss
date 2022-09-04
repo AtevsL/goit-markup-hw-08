@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;
   }
 }
@@ -17,7 +17,7 @@
   @media screen and (min-width: 768px) {
     min-width: calc((768px - 90px) / 3);
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     min-width: calc((1170px - 150px) / 6);
   }
 }
